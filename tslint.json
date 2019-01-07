@@ -1,0 +1,95 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-defocus",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "block-spacing": true,
+    "completed-docs": [
+      false,
+      {
+        "enums": true,
+        "functions": {
+          "visibilities": [
+            "exported"
+          ]
+        },
+        "methods": {
+          "privacies": [
+            "public",
+            "protected"
+          ]
+        }
+      }
+    ],
+    "defocus": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "jsdoc-format": true,
+    "max-line-length": [
+      true,
+      190
+    ],
+    "member-access": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    },
+    "no-constant-condition": true,
+    "no-duplicate-case": true,
+    "no-empty": [
+      true,
+      "allow-empty-catch",
+      "allow-empty-functions"
+    ],
+    "no-extra-semi": true,
+    "no-irregular-whitespace": true,
+    "no-magic-numbers": [
+      true,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      401,
+      403,
+      404,
+      500,
+      504
+    ],
+    "no-unexpected-multiline": true,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-leading-underscore"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@decentro/tslint",
+  "version": "1.0.0",
+  "description": "Core tslint ruleset to be extended by other Decentro TypeScript projects",
+  "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentro-gmbh/tslint.git"
+  },
+  "keywords": [
+    "tslint",
+    "linting",
+    "tslint-rules",
+    "decentro"
+  ],
+  "author": "Decentro GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentro-gmbh/tslint/issues"
+  },
+  "homepage": "https://github.com/decentro-gmbh/tslint#readme",
+  "dependencies": {
+    "tslint-defocus": "^2.0.6",
+    "tslint-eslint-rules": "^5.4.0"
+  }
+}
