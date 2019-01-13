@@ -86,7 +86,6 @@
       "single"
     ],
     "rxjs-no-nested-subscribe": true,
-    "rxjs-no-wholesale": true,
     "variable-name": {
       "options": [
         "check-format",
