@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/decentro-gmbh/tslint#readme",
   "dependencies": {
+    "rxjs-tslint-rules": "^4.14.4",
     "tslint-defocus": "^2.0.6",
     "tslint-eslint-rules": "^5.4.0"
   }
