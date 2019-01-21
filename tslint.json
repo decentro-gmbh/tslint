@@ -85,6 +85,7 @@
       true,
       "single"
     ],
+    "rxjs-no-nested-subscribe": true,
     "variable-name": {
       "options": [
         "check-format",
