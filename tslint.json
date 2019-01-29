@@ -72,12 +72,6 @@
       0,
       1,
       2,
-      3,
-      401,
-      403,
-      404,
-      500,
-      504
     ],
     "no-unexpected-multiline": true,
     "object-literal-sort-keys": false,
