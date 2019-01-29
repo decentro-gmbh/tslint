@@ -71,7 +71,7 @@
       -1,
       0,
       1,
-      2,
+      2
     ],
     "no-unexpected-multiline": true,
     "object-literal-sort-keys": false,
