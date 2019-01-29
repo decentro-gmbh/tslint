@@ -1,6 +1,6 @@
 {
   "name": "@decentro/tslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core tslint ruleset to be extended by other Decentro TypeScript projects",
   "main": "tslint.json",
   "files": [
