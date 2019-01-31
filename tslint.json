@@ -2,7 +2,8 @@
   "extends": [
     "tslint:recommended",
     "tslint-defocus",
-    "tslint-eslint-rules"
+    "tslint-eslint-rules",
+    "tslint-sonarts"
   ],
   "rules": {
     "block-spacing": true,
