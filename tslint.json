@@ -3,7 +3,8 @@
     "tslint:recommended",
     "tslint-defocus",
     "tslint-eslint-rules",
-    "tslint-sonarts"
+    "tslint-sonarts",
+    "rxjs-tslint-rules"
   ],
   "rules": {
     "block-spacing": true,
