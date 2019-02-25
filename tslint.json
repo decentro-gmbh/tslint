@@ -2,9 +2,8 @@
   "extends": [
     "rxjs-tslint-rules",
     "tslint:recommended",
-    "tslint-defocus",
     "tslint-eslint-rules",
-    "tslint-mocha-typescript-no-only"
+    "tslint-no-focused-test"
   ],
   "rules": {
     "block-spacing": true,
@@ -25,7 +24,6 @@
         }
       }
     ],
-    "defocus": true,
     "indent": [
       true,
       "spaces",
@@ -68,6 +66,7 @@
       "allow-empty-functions"
     ],
     "no-extra-semi": true,
+    "no-focused-test": true,
     "no-irregular-whitespace": true,
     "no-magic-numbers": [
       true,
