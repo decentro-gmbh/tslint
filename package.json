@@ -25,6 +25,7 @@
   "dependencies": {
     "rxjs-tslint-rules": "^4.14.4",
     "tslint-defocus": "^2.0.6",
-    "tslint-eslint-rules": "^5.4.0"
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-mocha-typescript-no-only": "^1.0.2"
   }
 }
