@@ -1,9 +1,10 @@
 {
   "extends": [
+    "rxjs-tslint-rules",
     "tslint:recommended",
     "tslint-defocus",
     "tslint-eslint-rules",
-    "rxjs-tslint-rules"
+    "tslint-mocha-typescript-no-only"
   ],
   "rules": {
     "block-spacing": true,
@@ -47,6 +48,7 @@
         ]
       }
     ],
+    "mocha-typescript-no-only": true,
     "no-console": {
       "severity": "warning",
       "options": [
